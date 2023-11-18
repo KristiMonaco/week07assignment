@@ -67,18 +67,18 @@ let names = ["Kelly", "Sam", "Kate"];    // starting with this array
 let nameLengths = [5, 3, 4];             // create a new array*/
 
 let nameLengths = [];
-for (let i = 0; i < names.length; i++) {
+    for (let i = 0; i < names.length; i++) {
 nameLengths.push(names[i].length) 
-}
+    }
 console.log("Name lengths array", nameLengths);
 
 
 //6. Write a loop to iterate over the nameLengths array and calculate the sum of all the elements in the array.
 
 let sumOfArray = 0;
-for (let i = 0; i < nameLengths.length; i++) {
+    for (let i = 0; i < nameLengths.length; i++) {
 sumOfArray += nameLengths[i];
-}
+    }
 console.log("Sum of array", sumOfArray);
 
 
